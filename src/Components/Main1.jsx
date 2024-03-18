@@ -7,12 +7,12 @@ const Main = () => {
             <div className="main flex flex-col bg-black">
                 <div className="header flex justify-between p-3 bg-black shadow-lg py-3 md:py-6">
                     <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-fuchsia-600 shadow-lg">$URANUS Web</h1>
-                    <button className="bg-black hover:bg-slate-600 text-white font-semibold rounded-full shadow-md border border-white md:px-3">
-                        Built by Kartikeya
+                    <button className="text-white font-semibold rounded-full shadow-md border border-white px-4 py-2 md:px-3 transition-colors duration-300 ease-in-out hover:bg-yellow-400 hover:text-black">
+                        <span className="transition-colors duration-300 ease-in-out hover:bg-yellow-400 hover:text-black">Built by Kartikeya</span>
                     </button>
                 </div>
                 <div>
-                    <img src={uranus} alt="" className="w-full h-96" />
+                    <img src={uranus} alt="" className="w-full h-auto object-cover" />
                 </div>
                 <div className="down flex flex-col justify-center items-center text-lg text-cyan-300 p-6 md:mr-40 md:ml-40 md:my-6">
                     <p className="my-5">Uranus, the ruler of Aquarius, starts 2024 in retrograde, going direct on Saturday, January 27, then retrogrades again on Sunday, September 1. This suggests ongoing evolution in your home life and personal growth. </p>
