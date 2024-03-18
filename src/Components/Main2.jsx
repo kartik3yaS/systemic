@@ -12,7 +12,7 @@ const Main2 = () => {
                         <li>Hold onto Uranus!</li>
                         <li>Disclaimer: This is all in good fun - a blend of memes, astrology, and crypto. We will not go moon, we going to Uranus.</li>
                     </ul>
-                    <span className=" text-purple-500 flex justify-center items-center text-3xl p-4 mb-2 font-serif before:block before:content-open-quote after:block after:content-close-quote inline-block">&ldquo;In Crypto We Trust, But In Uranus, We Believe!&rdquo;</span>
+                    <span className=" text-purple-500 flex justify-center items-center text-3xl p-4 mb-2 font-serif">&ldquo;In Crypto We Trust, But In Uranus, We Believe!&rdquo;</span>
                     <div className="p-4">
                         <h3 className="text-yellow-300 text-2xl font-serif mb-3">The Memeifesto</h3>
                         <span>Welcome to the wild side of crypto - where memes are not just dreams, and astrology isn’t just your daily horoscope.</span>
