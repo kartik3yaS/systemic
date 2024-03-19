@@ -1,12 +1,13 @@
+// import React from "react";
 import footer from "./footer.png";
 
 function Footer() {
   return (
     <div>
-      <footer className="bg-blue-950 p-5">
-        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-          <div className=" mt-5">
-            <div className="mb-6 md:mb-0  ">
+      <footer className="bg-gray-900 p-5">
+        <div className="mx-auto w-full max-w-screen p-4 py-6 lg:py-2">
+          <div className="-mt-7 -mb-16.5">
+            <div className="mb-2 md:mb-0  ">
               <a href="https://coinmarketcap.com/currencies/uranus-sol/" className="flex items-center">
                 <img
                   src={footer}
@@ -115,5 +116,39 @@ function Footer() {
     </div>
   );
 }
+
+// const Footer = () => {
+//   return(
+//     <React.Fragment>
+//       <footer className="bg-gray-900 text-gray-200">
+//         <div className="container mx-auto py-14 px-6">
+//           <div className="grid md:grid-cols-5 grid-cols-1 gap-7">
+//             <div className="lg:col-span-2 md:col-span-4 col-span-12">
+//               <h2 className="tracking-wide text-gray-100 font-semibold">Partners</h2>
+//               <ul className="list-none mt-6 space-y-2">
+//                 <li>
+//                   <a href="https://Dia.wiki" className="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out">Decentralized Intelligence Agency</a>
+//                 </li>
+//                 <li><a href="https://WorldVibeWeb.org" className="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out">World Vibe Web</a></li>
+//                 <li><a href="https://Purplerock.xyz" className="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out">Purplerock</a></li>
+//               </ul>
+//             </div>
+//             <div className="lg:col-span-3 md:col-span-4 col-span-12">
+//               <h2 className="tracking-wide text-gray-100 font-semibold">Resources</h2>
+//               <ul className="list-none space-y-2 mt-6">
+//                 <li><a href="https://www.notion.so/URANUS-Web-7291c569928947758d04c7dc99a3a327?pvs=4" className="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out">Decentralized Intelligence Agency</a></li>
+//                 <li><a href="https://GoldenMeme.org" className="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out">Decentralized Intelligence Agency</a></li>
+//               </ul>
+//             </div>
+//             <div className="">
+//               <h2 className="tracking-wide text-gray-100 font-semibold">2024 All rights reserved</h2>
+//               <span>Kartikeya Shukla</span>
+//             </div>
+//           </div>
+//         </div>
+//       </footer>
+//     </React.Fragment>
+//   )
+// }
 
 export default Footer;
